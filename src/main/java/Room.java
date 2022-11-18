@@ -12,4 +12,6 @@ public abstract class Room {
 
     public abstract int getCapacityFromEnum();
 
+    public abstract int getValueOfEnumFromEnum();
+
 }

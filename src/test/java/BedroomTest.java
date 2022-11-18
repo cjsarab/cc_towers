@@ -19,4 +19,9 @@ public class BedroomTest {
     public void bedroomHasCapacity() {
         assertEquals(2, bedroom.getCapacityFromEnum());
     }
+
+    @Test
+    public void bedroomCanSeeEnumValue() {
+        assertEquals(2, bedroom.getValueOfEnumFromEnum());
+    }
 }

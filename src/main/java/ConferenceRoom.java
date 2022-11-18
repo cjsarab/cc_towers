@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public class Bedroom extends Room {
+public class ConferenceRoom extends Room {
 
-    private int roomNumber;
+    private String name;
     private RoomType roomType;
 
-    public Bedroom(int capacity, ArrayList<Guest> guestsInRoom, int roomNumber, RoomType roomType) {
+    public ConferenceRoom(int capacity, ArrayList<Guest> guestsInRoom, String name, RoomType roomType) {
         super(capacity, guestsInRoom);
-        this.roomNumber = roomNumber;
+        this.name = name;
         this.roomType = roomType;
     }
 
@@ -18,5 +18,4 @@ public class Bedroom extends Room {
     public int getValueOfEnumFromEnum() {
         return this.roomType.getValue();
     }
-
 }
