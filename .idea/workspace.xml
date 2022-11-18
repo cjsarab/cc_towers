@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21883b4-0cd7-4060-8cc3-dc12a8b4ebd5" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RoomTypeTest">
+  <component name="RunManager" selected="JUnit.BedroomTest">
+    <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.RoomTypeTest" />
         <item itemvalue="JUnit.GuestTest" />
       </list>
