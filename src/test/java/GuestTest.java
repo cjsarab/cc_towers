@@ -8,7 +8,7 @@ public class GuestTest {
     Guest guest;
 
     @Before
-    public void before () {
+    public void before() {
         guest = new Guest("John");
     }
 
